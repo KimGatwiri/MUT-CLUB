@@ -1,0 +1,33 @@
+.testimonialcard{
+    box-shadow: 0 o 1rem color red;
+    border:1px solid ;
+    width: 40rem;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+.testimonialcarddetails{
+display: flex;
+gap: 3rem;
+align-items: center;
+padding-bottom: 2rem;
+
+}
+.testimonialcarddetails img{
+    --size:8rem;
+    width:var(--size);
+    height: var(--size);
+    border-radius: 50%;
+
+
+}
+.testimonialcardname{
+    letter-spacing: .3rem;
+}
+.testimony-title{
+    padding-bottom: 1rem;
+}
+.testimonies-wrapper{
+    display: flex;
+    gap:3rem;
+    padding-left:10rem;
+}

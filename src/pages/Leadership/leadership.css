@@ -1,0 +1,81 @@
+
+  .leadership-wrapper{
+display: flex;
+    
+  }
+  .leaders-section-wrapper {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid #ccc; 
+    padding: 20px;
+    /* max-width: 300px; */
+    flex:1;
+  }
+ 
+  .patron-container .leaders-details img{
+    width: 170px;
+    height: 190px;
+  }
+  .executives{
+    display: flex;
+    justify-content: center;
+    padding:5rem;
+    gap: 10rem;
+    flex:1;
+    
+  }
+  
+  .chair-container .leaders-details img{
+    width:140px;
+    height:140px;
+  }
+  .chair-container{
+    width:300rem;
+    padding-top:3rem;
+    /* height: 6rem; */
+  }
+  
+  .leaders-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the name, image, and title horizontally */
+    margin-bottom: 15px;
+  }
+  
+  .leader-name, .leader-title, .testimony-title {
+    margin: 5px 0;
+    text-align: center;
+  }
+  
+  .social-media-icons {
+    display: flex;
+    justify-content: center; /* Center the social icons horizontally */
+    gap: 10px; /* Add space between social icons */
+  }
+  
+  img {
+    border-radius: 50%; /* Makes the image a circle */
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* Ensures the image fits nicely */
+    margin-bottom: 10px;
+  }
+  .vice-container{
+    display: flex;
+    gap:2rem;
+    padding:1rem;
+  }
+  .vice-container .leaders-details img{
+    width:130px;
+    height:130px;
+  }
+  .other-leaders-1{
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+  .other-leaders-2{
+    display: flex;
+  }

@@ -1,0 +1,33 @@
+.ttitle{
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+
+}
+.tracks-section-wrapper{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 1REM;
+}
+.tracks-container{
+    display: block;
+    max-width: 124rem;
+    padding-left: 9rem;
+}
+.h1-class{
+    align-items: center;
+    padding-left: 65rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);;
+}
+.tracks-image{
+    padding: 3rem;
+
+}
+.h4-text{
+    text-align: center;
+    padding:3rem;
+    font-size: 1.9rem;
+}

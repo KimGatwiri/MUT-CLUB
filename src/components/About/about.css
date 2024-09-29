@@ -1,0 +1,25 @@
+.about-content-wrapper{
+    display: flex;
+   justify-content: center;
+   gap:2rem;
+   padding:1rem;
+   
+    
+}
+.about-text{
+    display: block;
+    justify-content: center;
+    padding-top: 4rem;
+    
+    
+}
+.about-section-image{
+    width: 60rem;
+    height: auto;
+    border-radius: 0%;
+}
+
+    
+.about-text {
+    animation-delay: 1s; /* Text starts a bit later for a staggered effect */
+} 
