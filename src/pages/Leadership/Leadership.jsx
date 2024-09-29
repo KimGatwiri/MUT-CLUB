@@ -25,7 +25,7 @@ function Leadershipsection({ MemberAvator, MemberName, title, text, FacebookIcon
       <div className="social-media-icons">
       {LinkedinIcon && <LinkedinIcon />}
         
-        {TwitterIcon && <TwitterIcon />}{/* Render Instagram icon */}
+        {TwitterIcon && <TwitterIcon />}
         {FacebookIcon && <FacebookIcon />} 
       </div>
     </div>
