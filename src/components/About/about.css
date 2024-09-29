@@ -6,6 +6,13 @@
    
     
 }
+@media screen and (max-width: 1569px){
+    .about-content-wrapper{
+        padding-left:40rem;
+        display: block;
+        
+    
+    }}
 .about-text{
     display: block;
     justify-content: center;

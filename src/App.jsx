@@ -6,7 +6,7 @@ import Home from './pages/Home/Home'
 import Leadership from './pages/Leadership/Leadership'
 import Tracks from './pages/Tracks/Tracks'
 import Events from './pages/Events/Events'
-import { BrowserRouter ,Routes,Route } from 'react-router-dom'
+import { HashRouter ,Routes,Route } from 'react-router-dom'
 
 function App() {
   
