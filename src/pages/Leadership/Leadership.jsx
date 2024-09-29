@@ -10,7 +10,7 @@ import member9 from "../../assets/member 9.jpg";
 import member10 from "../../assets/member 10.jpg";
 import member11 from "../../assets/member11.jpg";
 import'./leadership.css'
-import { BsFacebook, BsLinkedin ,BsTwitter} from "react-icons/bs"; // Ensure correct import
+import { BsFacebook, BsLinkedin ,BsTwitter} from "react-icons/bs"; 
 
 function Leadershipsection({ MemberAvator, MemberName, title, text, FacebookIcon, LinkedinIcon,TwitterIcon }) {
   return (
@@ -50,7 +50,7 @@ function Leadership() {
 
 "
 LinkedinIcon={BsLinkedin}
-          TwitterIcon={BsTwitter} // Passing Instagram icon
+          TwitterIcon={BsTwitter} 
           FacebookIcon={BsFacebook}  
         />
       </div>
@@ -63,8 +63,8 @@ LinkedinIcon={BsLinkedin}
           text="Hello, I'm Sarah Karanja, the Chairlady of the Tech Club, where I strive to cultivate a vibrant community of aspiring tech enthusiasts. With over ten years in software development and a passion for innovation, I aim to inspire and empower our members to push boundaries in technology. My journey has been shaped by a deep commitment to mentoring the next generation of leaders and fostering collaboration within the tech landscape. Together, we’re not just learning technology; we’re shaping the future!"
           LinkedinIcon={BsLinkedin}
           
-          TwitterIcon={BsTwitter} // Passing Instagram icon
-          FacebookIcon={BsFacebook}   // Passing icons again
+          TwitterIcon={BsTwitter} 
+          FacebookIcon={BsFacebook}   
          
         />
         </div>
@@ -79,7 +79,7 @@ LinkedinIcon={BsLinkedin}
           text="Allan Muhari is a passionate tech enthusiast and the Vice President of the Tech Club, where he fosters innovation and collaboration among members. With a strong background in software development and a knack for problem-solving, he inspires others to explore new technologies. Allan believes in the power of teamwork and actively encourages discussions on emerging trends in the tech industry. Outside of club activities, he enjoys coding projects and sharing knowledge with fellow tech lovers."
           LinkedinIcon={BsLinkedin}
           
-          TwitterIcon={BsTwitter} // Passing Instagram icon
+          TwitterIcon={BsTwitter} 
          
          
         />
@@ -91,7 +91,7 @@ LinkedinIcon={BsLinkedin}
           text="My name is Bridget Gitonga, and I proudly serve as the secretary of our local tech club, where I facilitate communication and collaboration among our members. With a passion for technology and innovation, I help organize events and workshops that inspire and educate aspiring tech enthusiasts. My journey into the tech world began in high school, where I developed a keen interest in programming and web development. I believe in the power of technology to transform lives and communities."
           LinkedinIcon={BsLinkedin}
           
-          TwitterIcon={BsTwitter} // Passing Instagram icon
+          TwitterIcon={BsTwitter}
             // Passing icons again
          
         />
