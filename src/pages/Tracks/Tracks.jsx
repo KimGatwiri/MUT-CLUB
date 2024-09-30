@@ -1,4 +1,5 @@
 import './Tracks.css'
+import RegistrationForm from '../Home/Registration';
 import Tracksimage from "../../assets/tracksimg.jpg";
 
 import { FaShieldAlt,FaPencilAlt ,FaHtml5,FaMobileAlt,FaCloud} from "react-icons/fa";
@@ -90,7 +91,7 @@ return(
 <div className="h4-text">
 <h4>Fill This Form to join us</h4>
 </div>
-
+< RegistrationForm />
 </div>
 
 )
