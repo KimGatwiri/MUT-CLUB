@@ -1,10 +1,10 @@
-.footer-section-wrapper{
-    background-color:var(--color-light-primary)
+.footer-section-wrapper {
+  background-color: var(--color-light-primary);
 }
-.bottom-line{
-    display: flex;
- align-items: center;
- justify-content: center;
- padding-top: 2rem;
- color:var(--color-white);
+.bottom-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  color: var(--color-white);
 }
