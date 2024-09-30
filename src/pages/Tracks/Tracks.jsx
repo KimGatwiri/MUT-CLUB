@@ -1,5 +1,5 @@
 import "./Tracks.css";
-import RegistrationForm from "../Home/Registration";
+import RegistrationForm from "./Registration";
 import Tracksimage from "../../assets/tracksimg.jpg";
 
 import {

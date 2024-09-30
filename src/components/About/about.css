@@ -1,26 +1,61 @@
-.about-content-wrapper {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  padding: 1rem;
-}
-@media screen and (max-width: 1569px) {
-  .about-content-wrapper {
-    padding-left: 40rem;
-    display: block;
-  }
-}
-.about-text {
-  display: block;
-  justify-content: center;
-  padding-top: 4rem;
-}
-.about-section-image {
-  width: 60rem;
-  height: auto;
-  border-radius: 0%;
+General styling for the About section
+section {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
 }
 
-.about-text {
-  animation-delay: 1s; /* Text starts a bit later for a staggered effect */
+
+.about-content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
+
+.about-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+
+.about-text h3 {
+  font-size: 28px;
+  font-weight: bold;
+  
+  margin-bottom: 20px;
+}
+
+.about-text-title {
+  font-size: 22px;
+  font-weight: bold;
+ 
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  
+  margin-bottom: 15px;
+}
+
+.about-image {
+  flex: 1;
+  max-width: 500px;
+  
+}
+
+.about-section-image {
+  width: 100%;
+  height: 50rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+

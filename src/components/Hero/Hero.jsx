@@ -1,5 +1,7 @@
 import "./Hero.css";
 import heroImage from "../../assets/hero.jpg";
+
+import { Link } from "react-router-dom";
 function HeroSection() {
   return (
     <section className="hero-section">
@@ -8,7 +10,10 @@ function HeroSection() {
         <h1 className="hero-text">welcome to MUTC</h1>
         <h4 className="hero-paragraph">where every opinion counts</h4>
         <div className="button-styles">
-          <button className="hero-button">Join Us</button>
+        <Link to="/RegistrationForm" >
+         <button class="hero-button">Join Us</button>
+         </Link>
+
         </div>
       </div>
     </section>
