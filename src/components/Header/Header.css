@@ -53,6 +53,13 @@ body {
   font-weight: 500;
   font-size: 1.8rem;
   cursor: pointer;
+  color: inherit;
+}
+.navigation-links :hover{
+  background-color:var(--color-original);
+  color: var(--color-secondary);
+  font-size: 1.8rem;
+  text-decoration: none;
 }
 @media screen and (max-width: 518px) {
   .navigation-links {

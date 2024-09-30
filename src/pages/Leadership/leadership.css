@@ -1,79 +1,131 @@
-.leadership-wrapper {
+/* .leadership-wrapper {
   display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
 }
+
 .leaders-section-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid #ccc;
-  padding: 20px;
-  /* max-width: 300px; */
-  flex: 1;
-}
-
-.patron-container .leaders-details img {
-  width: 170px;
-  height: 190px;
-}
-.executives {
-  display: flex;
-  justify-content: center;
-  padding: 5rem;
-  gap: 10rem;
-  flex: 1;
-}
-
-.chair-container .leaders-details img {
-  width: 140px;
-  height: 140px;
-}
-.chair-container {
-  width: 300rem;
-  padding-top: 3rem;
-  /* height: 6rem; */
-}
-
-.leaders-details {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centers the name, image, and title horizontally */
-  margin-bottom: 15px;
-}
-
-.leader-name,
-.leader-title,
-.testimony-title {
-  margin: 5px 0;
-  text-align: center;
-}
-
-.social-media-icons {
-  display: flex;
-  justify-content: center; /* Center the social icons horizontally */
-  gap: 10px; /* Add space between social icons */
-}
-
-img {
-  border-radius: 50%; /* Makes the image a circle */
-  width: 100px;
-  height: 100px;
-  object-fit: cover; /* Ensures the image fits nicely */
-  margin-bottom: 10px;
-}
-.vice-container {
-  display: flex;
-  gap: 2rem;
-  padding: 1rem;
-}
-.vice-container .leaders-details img {
-  width: 130px;
-  height: 130px;
-}
-.other-leaders-1 {
-  display: flex;
-  flex-wrap: wrap;
-}
-.other-leaders-2 {
-  display: flex;
-}
+  border: 1px solid #ddd;
+  border-radius: 10px; /* Rounded corners */
+  .leadership-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .leaders-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    flex: 1;
+    background-color: #f9f9f9; /* Soft background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .leaders-section-wrapper:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+  }
+  
+  .patron-container .leaders-details img {
+    width: 170px;
+    height: 190px;
+    object-fit: cover;
+  }
+  
+  .executives {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    gap: 10rem;
+  }
+  
+  .chair-container .leaders-details img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+  }
+  
+  .chair-container {
+    width: auto;
+    padding-top: 3rem;
+  }
+  
+  .leaders-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .leader-name {
+    font-weight: bold;
+    margin: 5px 0;
+    font-size: 1.5rem; /* Increased font size */
+    color: #333;
+  }
+  
+  .leader-title {
+    font-size: 1.7rem; /* Increased font size */
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .testimony-title {
+    margin: 15px 0;
+    font-size: 1.4rem; /* Increased font size */
+    text-align: center;
+    color:black;
+    line-height: 2.7rem;
+  }
+  
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  img {
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid #ccc; /* Subtle border for the image */
+  }
+  
+  .vice-container {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  .vice-container .leaders-details img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+  }
+  
+  .other-leaders-1,
+  .other-leaders-2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding-bottom: 3rem;
+    padding-left:2.2rem;
+    padding-right:2.3rem ;
+  }
+  

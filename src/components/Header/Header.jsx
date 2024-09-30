@@ -8,7 +8,7 @@ function Navigation() {
 
       <ol className="navigation-links">
         <li>
-          <Link to="/">home</Link>
+          <Link to="/" className="navigation-links">home</Link>
         </li>
 
         <li>
